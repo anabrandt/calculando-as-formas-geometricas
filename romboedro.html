@@ -23,33 +23,33 @@
       <article class="secao__conteudo">
         <div class="secao__formulario">
           <fieldset>
-            <legend>Quanto você ganha por mês?</legend>
+            <legend>Qual é a diagonal maior do romboedro?</legend>
             <div class="secao__formulario__grupo">
-              <label for="ganho-mes">Quantidade por mês</label>
-              <input id="ganho-mes" type="number" value="0" />
+              <label for="inputDiagonalMaior">Diagonal maior</label>
+              <input id="inputDiagonalMaior" value="0" />
             </div>
           </fieldset>
           <fieldset>
-            <legend>Quantas horas você trabalha por dia?</legend>
+            <legend>Qual é a diagonal menor do romboedro?</legend>
             <div class="secao__formulario__grupo">
-              <label for="horas-dia">Horas por dia</label>
-              <input id="horas-dia" type="number" value="0" />
+              <label for="inputDiagonalMenor">Diagonal menor</label>
+              <input id="inputDiagonalMenor" value="0" />
             </div>
           </fieldset>
-          <button onclick="calcularValorHora()">Calcular</button>
+          <button class="btn" onclick="areaRomboedro()">Calcular</button>
         </div>
       </article>
       <footer class="secao__rodape">
         <h3 class="secao__rodape__valor">
-          <span id="resposta">R$ 0,00</span><small>/hora</small>
+          <span id="resultadoRomboedro">0</span>
         </h3>
-        <p class="secao__rodape__legenda">Seu valor por hora</p>
       </footer>
     </section>
 
   </main>
 
-  <footer class="rodape">Feito com muito am♥r </a></footer>
+  <footer class="rodape"><a href="/index.html">V♥ltar para a página inicial</a></footer>
+
   <script type="text/javascript" src="js/script.js"></script>
   
 </body>
